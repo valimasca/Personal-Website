@@ -1,0 +1,195 @@
+body,
+html {
+    background: #cccccc;
+    height: 100%;
+}
+
+/* Parallax */
+.parallax {
+    background-image: url('../Images/MacParallax.jpg');
+
+    height: 150px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Menu */
+.menu {
+    background: #fff;
+}
+
+.menu ul {
+    padding: 0;
+}
+
+.menu ul li {
+    float: left;
+    list-style: none;
+    padding: 25px;
+    text-transform: uppercase;
+    background: white;
+    border-right: 1px dashed #333333;
+}
+
+.menu ul li:last-child {
+    border-right: none;
+}
+
+.menu ul li a {
+    color: #333333;
+    text-decoration: none;
+    font-family: "Roboto";
+}
+
+.menu ul li:hover {
+    color: #ff6600;
+    border-bottom: 2px solid #ff6600;
+}
+
+/* Card */
+.card h1 {
+    font-family: "Roboto";
+    font-size: 24px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.card h2 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    color: #999;
+}
+
+.card img {
+    background: none;
+}
+
+.card .cardContent {
+
+    padding: 10px;
+}
+
+.card .cardSocial {
+    text-align: center;
+    border-top: 1px dashed #ccc;
+    padding: 10px;
+}
+
+.card .cardSocial .fa {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.card .cardSocial .fa-twitter:hover {
+    color: #fff;
+    background: #40cff3;
+}
+
+.card .cardSocial .fa-facebook:hover {
+    color: #fff;
+    background: #0000ff;
+}
+
+.card .cardSocial .fa-linkedin:hover {
+    color: #fff;
+    background: #455de7;
+}
+
+.card .cardSocial .fa-github:hover {
+    color: #fff;
+    background: #8e11ad;
+}
+
+.card .cardSocial .fa-facebook {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+/* Main Container */
+.container {
+    margin-top: -200;
+}
+
+.content {
+    background: #fff;
+}
+
+.hrContent {
+    border: 0;
+    border-top: 1px dashed #7f7f7f;
+}
+
+.skill {
+    background: #eee;
+}
+
+.outerSkill {
+    border: 1px solid #243c4f;
+    height: 6px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.innerSkill {
+    background: #243c4f;
+    height: 4px;
+}
+
+.skillIcon {
+    float: left;
+}
+
+.skillIcon .fa {
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 30px;
+    margin: 5px;
+    background: #243c4f;
+    color: #fff;
+    font-size: 20px;
+}
+
+.skillText {
+    padding-top: 10px;
+    float: left;
+    padding-left: 10px;
+}
+
+.skillText span {
+    color: #7f7f7f;
+}
+
+.skill10 {
+    width: 10%;
+}
+
+.skill20 {
+    width: 20%;
+}
+
+.skill40 {
+    width: 40%;
+}
+
+.skill50 {
+    width: 50%;
+}
+
+.skill60 {
+    width: 60%;
+}
+
+.skill80 {
+    width: 80%;
+}
+
+.footer {
+    color: #aaa;
+    font-size: 13px;
+    text-align: center;
+}

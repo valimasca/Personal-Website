@@ -193,3 +193,10 @@ html {
     font-size: 13px;
     text-align: center;
 }
+
+
+/* CONTACT */
+
+.form-group textarea {
+    width: 100%;
+}

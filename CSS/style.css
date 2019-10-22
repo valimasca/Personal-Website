@@ -200,3 +200,7 @@ html {
 .form-group textarea {
     width: 100%;
 }
+
+#pdf {
+    height: 100vh;
+}
